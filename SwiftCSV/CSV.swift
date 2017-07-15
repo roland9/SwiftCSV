@@ -9,7 +9,7 @@
 import Foundation
 
 open class CSV {
-    static fileprivate let comma: Character = ","
+    open static let comma: Character = ","
     
     open let header: [String]
 
